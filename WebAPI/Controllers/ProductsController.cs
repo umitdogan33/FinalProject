@@ -74,7 +74,7 @@ namespace WebAPI.Controllers
         [HttpGet("GetAllDetails")]
         public IActionResult GetAllDetails()
         {
-            var result = _productservice.GetProductDetails();
+            var result = _productservice.GetProductDetails(); 
             if (result.Success == true)
             {
                 return Ok(result);
