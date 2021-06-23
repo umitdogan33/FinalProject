@@ -30,6 +30,9 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<CategoryManager>().As<ICategoryService>();
             builder.RegisterType<EfCategoryDal>().As<ICategoryDal>();
 
+            builder.RegisterType<BasketManager>().As<IBasketService>();
+            builder.RegisterType<EfBasketDal>().As<IBasketDal>();
+
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

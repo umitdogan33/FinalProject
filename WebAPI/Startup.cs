@@ -84,7 +84,7 @@ namespace WebAPI
                 }
 
                 
-                app.ConfigureCustomExceptionMiddleware();
+                //app.ConfigureCustomExceptionMiddleware();
 
                 app.UseCors(builder=> builder.WithOrigins("http://localhost:4200/").AllowAnyHeader().AllowAnyOrigin());
             
@@ -98,7 +98,7 @@ namespace WebAPI
 
                 app.UseEndpoints(endpoints =>
                 {
-                    endpoints.MapControllers();
+                    endpoints.MapControllers(); 
                 });
             }
         }

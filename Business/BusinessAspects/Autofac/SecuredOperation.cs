@@ -8,7 +8,6 @@ using System.Text;
 using Business.Constans;
 using Core.Utilities.IoC;
 using Microsoft.Extensions.DependencyInjection;
-using Business.Constans;
 
 namespace Business.BusinessAspects.Autofac
 {

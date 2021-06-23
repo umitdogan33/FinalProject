@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="Concrete\BasketManager.cs" />
     <Compile Include="Concrete\CategoryManager.cs" />
     <Compile Include="Concrete\AuthManager.cs" />
     <Compile Include="Concrete\UserManager.cs" />
